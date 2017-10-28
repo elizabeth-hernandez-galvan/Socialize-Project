@@ -4,36 +4,33 @@ body{
 }
 
 nav{
-    
+    height: 50px;
 }
 
-section{
-    
+Section{
+
 }
 
 #menu{
-    background-color: aqua;
+    background-color: lightcyan;
 }
-
 .nav_wrap{
+    list-style-type: none;
     display: table;
     padding: 20px 0 20px 0;
     margin: 0 auto 0 auto;
-    
 }
 
 .item{
-    display: inline-block;
+    display: inline-block;   
 }
-
 .item_text:hover{
-    background-color: azure;
+    background-color: white;
     cursor: pointer;
 }
 
 .item_text{
-    padding: 20px;
-    
+    padding: 60px;
 }
 
 #intro{
@@ -43,35 +40,60 @@ section{
 }
 
 #icon{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
     background-color: white;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    border-radius: 50%;
     margin: auto;
+    overflow: hidden;
 }
 
 .main{
     background-color: #ffffff;
+    padding: 10px;
     width: 100%;
     min-height: 700px;
 }
 
 .intro_block{
     width: 50%;
-    height: 300px;
-    background-color: darkgray;
+    height: 450px;
+    background-color: black;
     float: left;
 }
 
 .intro_block_alt{
-    background-color: aqua;
+    background-color: white;
 }
-
 .clear{
     clear: both;
+}
+#block1{
+    background-image: url('/images/girls_perfected_it.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#block2{
+    background-image: url('/images/I_play_like_a_girl.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#block3{
+    background-image: url('/images/get_it_right.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#block4{
+    background-image: url('/images/Love_the_Game.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
