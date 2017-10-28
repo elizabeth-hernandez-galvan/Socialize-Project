@@ -7,6 +7,10 @@ nav{
     height: 50px;
 }
 
+h3{
+    color: black;
+}
+
 Section{
 
 }
@@ -51,6 +55,7 @@ Section{
     right: 0;
     margin: auto;
     overflow: hidden;
+    z-index: 9;
 }
 
 .main{
@@ -65,6 +70,31 @@ Section{
     height: 450px;
     background-color: black;
     float: left;
+    position: relitive;
+    z-index: 1;
+}
+
+.blue-overlay{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    opacity: .5;
+}
+
+.blue-gradient{
+    background: blue;
+    background: linear-gradient(to bottom right, blue, black);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    opacity: .5;
 }
 
 .intro_block_alt{
@@ -74,26 +104,41 @@ Section{
     clear: both;
 }
 #block1{
-    background-image: url('/images/girls_perfected_it.jpg');
+    background-image: url('/Socialize-Project/images/girls_perfected_it.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 #block2{
-    background-image: url('/images/I_play_like_a_girl.jpg');
+    background-image: url('/Socialize-Project/images/I_play_like_a_girl.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 #block3{
-    background-image: url('/images/get_it_right.jpg');
+    background-image: url('/Socialize-Project/images/get_it_right.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #block4{
-    background-image: url('/images/Love_the_Game.jpg');
+    background-image: url('/Socialize-Project/images/Love_the_Game.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.text_layer{
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+    width: 100%;
+}
+
+.text_layer h3{
+    color: white;
+    text-align: center;
 }
