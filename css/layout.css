@@ -11,9 +11,133 @@ h3{
     color: black;
 }
 
-Section{
-
+#icon{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+    z-index: 9;
 }
+
+.main{
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    min-height: 700px;
+}
+
+.blue-overlay{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    opacity: .5;
+}
+
+.blue-gradient{
+    background: blue;
+    background: linear-gradient(to bottom right, blue, black);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    opacity: .5;
+}
+
+Section{
+    width: 100%;
+    position: relative;
+    height: 600;
+}
+
+.text_layer{
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+    width: 100%;
+}
+
+.text_layer h3{
+    color: white;
+    text-align: center;
+    width; 100%;
+    margin-top: 20%;
+}
+
+#fact{
+    background-color: #abfcd3;
+}
+
+#fact .text_layer{
+    width: 100%
+}
+
+#fact h3{
+    color: black;
+    font-weight: 300;
+    text-align: left;
+    height: 500px;
+    background-color: #49fca2;
+    padding-left: 20px;
+}
+
+#fact h1{
+    color: black;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: right;
+    background-color: #abfcd3;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    margin: 40px 10px 10px 10px;
+}
+
+.split-right-v{
+    border-right: solid 1px #000;
+}
+
+.split-left-v{
+    border-left: solid 1px #000;
+}
+
+.split-top{
+    border-top: solid 1px #000;
+}
+
+.split-bottom{
+    border-bottom: solid 1px #000;
+}
+.w-33{
+    position: relative;
+    width: 33.33%;
+}
+.w-66{
+    position: relative;
+    width: 66.5%;
+}
+
+.col{
+    margin-top: 2%;
+    height: 90%;
+    float: left;
+}
+
+/*Nav Section*/
 
 #menu{
     background-color: lightcyan;
@@ -43,28 +167,6 @@ Section{
     position: relative;
 }
 
-#icon{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    overflow: hidden;
-    z-index: 9;
-}
-
-.main{
-    background-color: #ffffff;
-    padding: 10px;
-    width: 100%;
-    min-height: 700px;
-}
-
 .intro_block{
     width: 50%;
     height: 450px;
@@ -72,29 +174,6 @@ Section{
     float: left;
     position: relitive;
     z-index: 1;
-}
-
-.blue-overlay{
-    background-color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 3;
-    opacity: .5;
-}
-
-.blue-gradient{
-    background: blue;
-    background: linear-gradient(to bottom right, blue, black);
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 3;
-    opacity: .5;
 }
 
 .intro_block_alt{
@@ -128,17 +207,3 @@ Section{
     background-position: center;
 }
 
-.text_layer{
-    position: absolute;
-    top: 0;
-    left:0;
-    bottom: 0;
-    right: 0;
-    z-index: 4;
-    width: 100%;
-}
-
-.text_layer h3{
-    color: white;
-    text-align: center;
-}
