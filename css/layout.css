@@ -94,6 +94,7 @@ Section{
     height: 500px;
     background-color: #49fca2;
     padding-left: 20px;
+    padding-top: 50;
 }
 
 #fact h1{
@@ -104,7 +105,7 @@ Section{
     background-color: #abfcd3;
     padding-right: 40px;
     padding-bottom: 20px;
-    margin: 40px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 .split-right-v{
