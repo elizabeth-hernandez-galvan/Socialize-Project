@@ -92,9 +92,10 @@ Section{
     font-weight: 300;
     text-align: left;
     height: 500px;
-    background-color: #49fca2;
-    padding-left: 20px;
-    padding-top: 50;
+    background-color: #abfcd3;
+    padding-left: 10px;
+    margin-top: 0px; 
+    line-height: 25px;
 }
 
 #fact h1{
@@ -105,7 +106,15 @@ Section{
     background-color: #abfcd3;
     padding-right: 40px;
     padding-bottom: 20px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 10px;
+}
+
+aside{
+    float: right;
+    position: absolute;
+    left: 400px;
+    top: 120px;
+    padding-left: 10px;
 }
 
 .split-right-v{
@@ -125,11 +134,11 @@ Section{
 }
 .w-33{
     position: relative;
-    width: 33.33%;
+    width: 40.33%;
 }
 .w-66{
     position: relative;
-    width: 66.5%;
+    width: 57.5%;
 }
 
 .col{
